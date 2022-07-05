@@ -8,4 +8,4 @@ print("Cambio de nombre")
 # Se cambia el nombre de la carpeta donde se aloja el proyecto
 
 
-# Modificar un solo file flama
+# Modificar un solo file no flama :c
