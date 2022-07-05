@@ -1,2 +1,2 @@
-# Python-Basic
+# Learning-Python
 Python basic comands 
