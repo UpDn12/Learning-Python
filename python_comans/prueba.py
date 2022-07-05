@@ -6,3 +6,6 @@ print("Cambio de nombre")
 # se introduce nuevamente la direccion del repositrio con el siguiente comando
 #       git remote set-url origin <direccion del repositorio>
 # Se cambia el nombre de la carpeta donde se aloja el proyecto
+
+
+# Modificar un solo file
