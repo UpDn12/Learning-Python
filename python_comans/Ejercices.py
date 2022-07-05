@@ -1,4 +1,5 @@
 
+#Calculadora para noobs
 num_1 = input("Enter first number: ")
 num_2 = input("Enter second number: ")
 
@@ -14,7 +15,7 @@ result = float(num_1) + float(num_2)
 
 print(result)
 
-
+# ejercicio de mad libs chafa xd
 color = input("Enter a color: ")
 plural_noun = input("Enter a Plural noun: ")
 celebrity = input("Enter a celebrity: ")
