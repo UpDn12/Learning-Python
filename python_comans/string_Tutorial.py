@@ -1,57 +1,57 @@
 
+def cadena_de_texto_basic():
+    # Imprimir una cadena de texto
+    print("Singularity")
 
-# Imprimir una cadena de texto
-print("Singularity")
+    # Salto de una cadena te texto "como un enter"
+    print("Singu\nlarity")
 
-# Salto de una cadena te texto "como un enter"
-print("Singu\nlarity")
+def variable_con_funciones():
+    # Agregar una cadena de texto a una variables
+    phrase = "Singularity"
+    #         0123....
 
-# Agregar una cadena de texto a una variables
-phrase = "Singularity"
-#         0123....
+    # Imprimir una variable
+    print(phrase)
+    # Imprimir una variable y agregarle una cadean de texto
+    print(phrase+" create")
 
-# Imprimir una variable
-print(phrase)
+    # Imprimir el texto en minusculas
+    print(phrase.lower())
 
-# Imprimir una variable y agregarle una cadean de texto
-print(phrase+" create")
+    # Imprimir el texto en mayusculas
+    print(phrase.upper())
 
-# Imprimir el texto en minusculas
-print(phrase.lower())
+    # Comprobar si el terxto esta en mayusculas o en minusculas "Imprime un booleano"
+    print(phrase.isupper())
+    print(phrase.islower())
 
-# Imprimir el texto en mayusculas
-print(phrase.upper())
+    # Colocar el texto en mayusculas y luego comprobar "Imprime un booleano"
+    print(phrase.upper().isupper())
 
-# Comprobar si el terxto esta en mayusculas o en minusculas "Imprime un booleano"
-print(phrase.isupper())
-print(phrase.islower())
+    # Indica cuanto numero de letras tiene el String
+    print(len(phrase))
 
-# Colocar el texto en mayusculas y luego comprobar "Imprime un booleano"
-print(phrase.upper().isupper())
+    # Indica que letra del string esta en esa posicion
+    print(phrase[10])
 
-# Indica cuanto numero de letras tiene el String
-print(len(phrase))
+    # Indica que la posicino de la letra que se indique "Arroja un numero"
+    print(phrase.index("Sin"))
 
-# Indica que letra del string esta en esa posicion
-print(phrase[10])
+    # Reemplaza una "pedazo" del string por otro
+    print(phrase.replace("Sin", "Cos"))
 
-# Indica que la posicino de la letra que se indique "Arroja un numero"
-print(phrase.index("Sin"))
+def ejercicio_de_string():
+    #ejercicio de strings
+    character_name = "Reberundo"
+    character_age = "c"
+    isMale = True
 
-# Reemplaza una "pedazo" del string por otro
-print(phrase.replace("Sin", "Cos"))
+    print("huvo un hombre llamado " + character_name + ", ")
+    print("el man tenia unos "+character_age+ " anos de edad xd")
 
-
-#ejercicio de strings
-character_name = "Reberundo"
-character_age = "c"
-isMale = True
-
-print("huvo un hombre llamado " + character_name + ", ")
-print("el man tenia unos "+character_age+ " anos de edad xd")
-
-character_name = "Marco"
-print("el realmente le gustama el nombre de "+character_name+", era realmente genial")
-print("pero no le gustaba tener "+character_age+" anos :C")
+    character_name = "Marco"
+    print("el realmente le gustama el nombre de "+character_name+", era realmente genial")
+    print("pero no le gustaba tener "+character_age+" anos :C")
 
 
